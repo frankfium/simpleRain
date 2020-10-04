@@ -18,7 +18,7 @@ https://mcsp.wartburg.edu/zelle/python/graphics.py<br/>
 > This caught quite a bit of traction on social media (TikTok) recently.<br/>
 > So for any beginners interested in understanding this, read below.<br/>
 > I think it's really great that you all want to learn and I believe visualized code is one way to gain immediate satisfaction in something you create.
-### Catagories:
+### Categories:
 [Imports](https://github.com/frankpop10/simpleRain#imports)<br/>
 [Windows](https://github.com/frankpop10/simpleRain#windows)<br/>
 [Lists](https://github.com/frankpop10/simpleRain#lists)<br/>
