@@ -18,6 +18,13 @@ https://mcsp.wartburg.edu/zelle/python/graphics.py<br/>
 > This caught quite a bit of traction on social media (TikTok) recently.<br/>
 > So for any beginners interested in understanding this, read below.<br/>
 > I think it's really great that you all want to learn and I believe visualized code is one way to gain immediate satisfaction in something you create.
+### Catagories:
+[Imports](https://github.com/frankpop10/simpleRain#imports)<br/>
+[Windows](https://github.com/frankpop10/simpleRain#windows)<br/>
+[Lists](https://github.com/frankpop10/simpleRain#lists)<br/>
+[The Loop](https://github.com/frankpop10/simpleRain#the-loop)<br/>
+[Inside the loop](https://github.com/frankpop10/simpleRain#inside-the-loop)<br/>
+[Finishing Up](https://github.com/frankpop10/simpleRain#finishing-up)<br/>
 ## Imports
 `from graphics import *`<br/>
 `import random as r`
