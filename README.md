@@ -61,9 +61,9 @@ https://mcsp.wartburg.edu/zelle/python/graphics.py<br/>
 > So we choose a random color from our list and fill the new rectangle.<br/>
 `rect.draw(win)`<br/>
 >Then we draw it to the screen.<br/>
->we then set the update frames
+>we then set the update frames<br/>
 `update(50)`<br/>
->And we can add this rectangle to the list rects so that it can be referenced for movement in the next pass of the loop.
+>And we can add this rectangle to the list rects so that it can be referenced for movement in the next pass of the loop.<br/>
 `rects.append(rect)`<br/>
 ## Finishing Up
 > One of the last few things we need to do are really niche and specific to the library I used.<br/>
