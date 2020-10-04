@@ -47,7 +47,7 @@ https://mcsp.wartburg.edu/zelle/python/graphics.py<br/>
 `if rect.getP1().getY() > HEIGHT:`<br/>
 `rect.undraw()`<br/>
 `rects.remove(rect)`<br/>
- #### Drawing
+ ##Inside the loop: Drawing
 > Now that the boring stuff is out of the way, we can draw our first brigade of rectangles!<br/>
 > We will start off by generating a random point to start the top left corner of the rectangle.<br/>
 `x1 = r.randint(0, WIDTH - 5)`<br/>
