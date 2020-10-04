@@ -11,7 +11,8 @@ https://mcsp.wartburg.edu/zelle/python/graphics.py<br/>
 > This should be included as a python file in the directory of your working file.
 - Python random
 > Self explanitory library included within Python.<br/>
-> Mainly used from random selection of starting points<br/><br/>
+> Mainly used from random selection of starting points<br/>
+>just name the file graphics.py and you should be good to go.<br/>
 ---
 # Code Breakdown
 > This caught quite a bit of traction on social media (TikTok) recently.<br/>
