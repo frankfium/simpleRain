@@ -15,7 +15,7 @@ https://mcsp.wartburg.edu/zelle/python/graphics.py<br/>
 >just name the file graphics.py and you should be good to go.<br/>
 ---
 # Code Breakdown
-> This caught quite a bit of traction on social media (TikTok) recently.<br/>
+> Since a few of my programs caught quite a bit of traction on social media (TikTok) recently.<br/>
 > So for any beginners interested in understanding this, read below.<br/>
 > I think it's really great that you all want to learn and I believe visualized code is one way to gain immediate satisfaction in something you create.
 ### Categories:
