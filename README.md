@@ -7,6 +7,7 @@ A simple random rain generator using Python Graphics
 - Graphics.py
 > Can be found here:<br/>
 https://mcsp.wartburg.edu/zelle/python/graphics.py<br/>
+>I have also attached the copy I used.<br/>
 > This should be included as a python file in the directory of your working file.
 - Python random
 > Self explanitory library included within Python.<br/>
@@ -47,15 +48,30 @@ https://mcsp.wartburg.edu/zelle/python/graphics.py<br/>
 `rects.remove(rect)`<br/>
  #### Drawing
 > Now that the boring stuff is out of the way, we can draw our first brigade of rectangles!<br/>
-> We will start off by generating a random point to start the top left corner of the rectangle at.
+> We will start off by generating a random point to start the top left corner of the rectangle.<br/>
 `x1 = r.randint(0, WIDTH - 5)`<br/>
-> We want this to be a certain size since all the rain drops should have an equal width which is why there are bounds on the random number generation.
-> We also do the same for the Y axis
-`y1 = r.randint(0, 10)`
->We can then feed these generated points to the rectangle creation function that is located in the graphics.py library.
-`rect = Rectangle(Point(x1, y1), Point(x1 + 5, y1 + 20))`
->This will create a new "object" as a rectangle but, we have to make it visible.
-`rect.setFill(r.choice(colorList))`
-> So we choose a random color from our list and fill the new rectangle.
-`rect.draw(win)`
->Then we draw it to the screen.
+> We want this to be a certain size since all the rain drops should have an equal width which is why there are bounds on the random number generation.<br/>
+> We also do the same for the Y axis<br/>
+`y1 = r.randint(0, 10)`<br/>
+>We can then feed these generated points to the rectangle creation function that is located in the graphics.py library.<br/>
+`rect = Rectangle(Point(x1, y1), Point(x1 + 5, y1 + 20))`<br/>
+>This will create a new "object" as a rectangle but, we have to make it visible.<br/>
+`rect.setFill(r.choice(colorList))`<br/>
+> So we choose a random color from our list and fill the new rectangle.<br/>
+`rect.draw(win)`<br/>
+>Then we draw it to the screen.<br/>
+>we then set the update frames
+`update(50)`<br/>
+>And we can add this rectangle to the list rects so that it can be referenced for movement in the next pass of the loop.
+`rects.append(rect)`<br/>
+## Finishing Up
+> One of the last few things we need to do are really niche and specific to the library I used.<br/>
+> We have to add a mouse tracker so the window remains open(which is weird but necessary here)<br/>
+`win.getMouse()`<br/>
+> And in the event we can't get the mouse the next line is to close the application. (we should not reach this).<br/>
+`win.close()`<br/>
+## That's it!
+> Thanks for sticking through that. I hope you learned some basics and if not, you can still download the attached files and have something cool!<br/>
+> Other than that, feel free to contact me on discord (malii#3723) if you need any assistance (I will try my best, I'm not sure how many of you will make it here)<br/>
+> If the demand is high, I can make a discord server with a few of my university friends who have just as much, if not more knowledge than I do especially in python!<br/>
+>Thanks again!
